@@ -7,13 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace COMP2007_Assignment1
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Contact : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-        protected void btnSubmit_Click(object sender, EventArgs e)
         {
 
         }

@@ -24,10 +24,12 @@
                         <asp:ListItem Value="1">Win</asp:ListItem>
                         <asp:ListItem Value="0">Loss</asp:ListItem>
                     </asp:RadioButtonList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="RadioButtonList1" CssClass="text-danger" runat="server" ErrorMessage="Please Select Result"></asp:RequiredFieldValidator>
                 </div>
                 <div>
                     <asp:Label ID="pointsScoredLabel1" runat="server"><strong>Points Scored:</strong></asp:Label>
                     <asp:TextBox ID="txtPScored1" TextMode="Number" CssClass="form-control" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="txtPScored1" CssClass="text-danger" runat="server" ErrorMessage="Points Scored is required"></asp:RequiredFieldValidator>
                 </div>
                 <div>
 
@@ -127,7 +129,41 @@
         </div> <!--Row Ends HEre-->
     </div><!-- Container Ends HEre -->
 
-   
+    <div class="container well center-block" id="summaryContainer" runat="server">
+        <h2>Summary:</h2>
+        <div>
+            <label>Number of Games won: </label>
+            <asp:Label ID="lblGameWon" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Number of Games Lost: </label>
+            <asp:Label ID="lblGameLost" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Winning %: </label>
+            <asp:Label ID="lblWinningP" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Total Points Scored: </label>
+            <asp:Label ID="lblTotalPointS" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Total Point Allowed: </label>
+            <asp:Label ID="lblTotalPointsA" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Differential of Points: </label>
+            <asp:Label ID="lblDifferentP" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Total Spectators: </label>
+            <asp:Label ID="lblTotalS" runat="server"></asp:Label>
+        </div>
+        <div>
+            <label>Average Spectators: </label>
+            <asp:Label ID="lblAverageS" runat="server"></asp:Label>
+        </div>
+    </div>
 
 
 

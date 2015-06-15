@@ -11,10 +11,12 @@ namespace COMP2007_Assignment1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
+           
+
             int gameWon = 0, gameLost = 0;
 
             if (RadioButtonList1.SelectedValue == "1")

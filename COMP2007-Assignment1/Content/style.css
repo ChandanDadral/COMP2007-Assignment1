@@ -1,7 +1,21 @@
 ﻿body {
 }
 .info-panel {
-    padding: 10px;
+    padding: 1px;
+    margin: 1px;
+   margin-bottom: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+   
+}
+.info-panel2 {
+   padding: 10px;
     margin: 10px;
+   
+   
+
+}
+
+.gameCalculator{
 
 }

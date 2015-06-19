@@ -76,6 +76,15 @@ namespace COMP2007_Assignment1 {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorScored1;
         
         /// <summary>
+        /// CompareValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        
+        /// <summary>
         /// pointAllowedLabel1 control.
         /// </summary>
         /// <remarks>
@@ -209,6 +218,15 @@ namespace COMP2007_Assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorScored2;
+        
+        /// <summary>
+        /// CompareValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
         
         /// <summary>
         /// pointsAllowedLabel2 control.
@@ -346,6 +364,15 @@ namespace COMP2007_Assignment1 {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorScored3;
         
         /// <summary>
+        /// CompareValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator3;
+        
+        /// <summary>
         /// pointsAllowedLabel3 control.
         /// </summary>
         /// <remarks>
@@ -479,6 +506,15 @@ namespace COMP2007_Assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorScored4;
+        
+        /// <summary>
+        /// CompareValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator4;
         
         /// <summary>
         /// pointsAllowedLabel4 control.

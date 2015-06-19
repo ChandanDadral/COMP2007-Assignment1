@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\images\11.jpg" />
+    <Content Include="Assets\images\44.jpg" />
+    <Content Include="Assets\images\77.jpg" />
+    <Content Include="Assets\images\favicon1.png" />
     <Content Include="Assets\images\logo.png" />
     <Content Include="Contact.aspx" />
     <Content Include="GameCalculator.Master" />

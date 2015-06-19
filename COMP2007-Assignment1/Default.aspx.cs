@@ -101,6 +101,37 @@ namespace COMP2007_Assignment1
             lblAverageS.Text = averageSpectator.ToString();
 
 
+        
+        }
+        /**THis Function clears all the firelds for the game
+         * */
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            //Clearing the text from the Text Boxes in all the games
+            txtPScored1.Text = " ";
+            txtPScored2.Text = " ";
+            txtPScored3.Text = " ";
+            txtPScored4.Text = " ";
+            txtPAllowed1.Text = " ";
+            txtPAllowed2.Text = " ";
+            txtPAllowed3.Text = " ";
+            txtPAllowed4.Text = " ";
+            txtSpec1.Text = " ";
+            txtSpectator2.Text = " ";
+            txtSpectator3.Text = " ";
+            txtSpectator4.Text = " ";
+
+            //Clearing all the labels in Summary Container
+            lblAverageS.Text = " ";
+            lblDifferentP.Text = " ";
+            lblGameLost.Text = " ";
+            lblGameWon.Text = " ";
+            lblTotalPointS.Text = " ";
+            lblTotalPointsA.Text = " ";
+            lblTotalS.Text = " ";
+            lblWinningP.Text = " ";
+            
+          
         }
     }
 }
